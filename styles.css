@@ -80,7 +80,9 @@
     width: 30px;
 opacity: 0.6;}
 
-
+.con{
+  padding: 20px;
+}
 #suiteN1{
   color: gray;
   text-align: center;
