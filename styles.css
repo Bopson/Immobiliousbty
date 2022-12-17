@@ -80,18 +80,6 @@
     width: 30px;
 opacity: 0.6;}
 
-#slidebg {
-    background-size: cover;
-    background-repeat: no-repeat;
-    backface-visibility: hidden;
-    animation: slideBg 15s linear infinite 0s;
-    animation-timing-function: ease-in-out;
-    background-image: url('photo01.jpeg');
-      background-blend-mode: lighten;
-    
-
-
-}
 
 #suiteN1{
   color: gray;
@@ -116,8 +104,22 @@ opacity: 0.6;}
   align-items: center;
   flex-wrap: wrap;
 }
+
+#slidebg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  backface-visibility: hidden;
+  animation: slideBg 23s linear infinite 0s;
+  animation-timing-function:ease-in-out;
+  background-image: url('photo01.jpeg');
+    background-blend-mode: lighten;
+  
+
+
+}
+
 @keyframes slideBg {
-  10%{
+  9%{
     background-image: url('photo01.jpeg');
 }
 18%{
