@@ -78,21 +78,47 @@
 .logoImg{
     height: 15px;
     width: 30px;
-}
+opacity: 0.6;}
 
 #slidebg {
     background-size: cover;
     background-repeat: no-repeat;
     backface-visibility: hidden;
-    animation: slideBg 20s linear infinite 0s;
+    animation: slideBg 15s linear infinite 0s;
     animation-timing-function: ease-in-out;
-    background-image: url('photo01.jpeg.jpg');
+    background-image: url('photo01.jpeg');
       background-blend-mode: lighten;
     
+
+
+}
+
+#suiteN1{
+  color: gray;
+  text-align: center;
+
+}
+
+#suiteN2{
+  color: rgb(41, 41, 122);
+  text-align: center;
+
+}
+.p_gallery{
+  padding: 0px 60px;
+  text-align: justify;
+}
+
+.paragraph{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 @keyframes slideBg {
-  5%{
-    background-image: url('photo01.jpeg.jpg');
+  10%{
+    background-image: url('photo01.jpeg');
 }
 18%{
     background-image: url('photo02.jpeg');
