@@ -123,10 +123,15 @@ opacity: 0.6;}
   background-size: cover;
   background-repeat: no-repeat;
   backface-visibility: hidden;
-  animation: slideBg 18s ease-in-out infinite 0s;
- 
-  background-image: url('photo01.jpg');
+/*   animation: slideBg 16s ease-in-out infinite 0s;
+ */
   
+  animation-name: slideBg;
+  animation-duration: 15s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+   background-image: url('photo01.jpg');
+ 
 }
 
 
