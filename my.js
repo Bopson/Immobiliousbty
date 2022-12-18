@@ -1,9 +1,9 @@
  $(document).ready(function(){
-/*     $("img").click(function(){this.requestFullscreen()}) */
+     $("img").click(function(){this.requestFullscreen()}) 
 
-$('#one').click(function() {
+/* $('#one').click(function() {
     this.naturalWeight
       
-});
+}); */
 });
  
