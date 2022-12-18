@@ -127,10 +127,10 @@ opacity: 0.6;}
  */
   
   animation-name: slideBg;
-  animation-duration: 15s;
+  animation-duration: 30s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
-   background-image: url('photo01.jpg');
+  background-image: url('photo01.jpg');
  
 }
 
@@ -140,28 +140,28 @@ opacity: 0.6;}
   0%{
     background-image: url('photo01.jpg');
 }
-/* 15%{
-    background-image: url('photo02.jpeg');
-  
-} */
-25%{
+15%{
     background-image: url('photo02.jpg');
+  
+}
+25%{
+    background-image: url('photo03.jpg');
     
 }
-/* 35%{
-    background-image: url('photo04.jpeg');
-} */
-50%{
-    background-image: url('photo03.jpg');
-}
-/*  59%{
-    background-image: url('photo06.jpeg');
-} */
- 75%{
+40%{
     background-image: url('photo04.jpg');
 }
- 100%{
+50%{
     background-image: url('photo05.jpg');
+}
+ 65%{
+    background-image: url('photo06.jpeg');
+}
+ 75%{
+    background-image: url('photo07.jpeg');
+}
+ 85%{
+    background-image: url('photo08.jpeg');
 }
 }
 body {
